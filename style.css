@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #E39FF6;
+    border: 1px solid #E39FF6;
+    display: inline-block;
+    border-radius: 2px;
+}
+.O{
+    position: relative;
+
+}
+.O:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.X{
+    position: relative;
+
+}
+.X:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 45px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#reset{
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+}
